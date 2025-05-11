@@ -4,21 +4,33 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Esse e meu primeiro site">
+  <meta name="keywords" content="Progamador,curso"> 
+  <meta name="author" content="Ronaldo gabriel nobre cavalcante">  
   <title>Gabriel Nobre - Desenvolvedor Web</title>
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <div class="container">
-      <h1>👨‍💻 Gabriel Nobre</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Início</a></li>
-          <li><a href="#">Projetos</a></li>
-          <li><a href="#">Contato</a></li>
-        </ul>
-      </nav>
+    <div class="container"></div>
+      <h1> 👨‍💻 Gabriel Nobre</h1>
+      <hr>
+      <h2>  A <q>lenda</Q> da progamação  
+      <p><i>Nesse site tem o <b>objetivo</b> <br>de aprender sobre sites.</i></p>
+      </h2>
+      
+      Estou aprendendo <abbr title ="Hiper texto marcup linguage">HTML</abbr> 
+
+      <h3>Tabelas</h3>
+      <table width="120%">
+        <tr>
+          <th>Inicio</th>
+           <th>Sobre</th>
+            <th>Historico</th>
+        </tr>
+      </table>
     </div>
   </header>
 
@@ -26,21 +38,26 @@
     <section class="sobre">
       <div class="container">
         <h2>Sobre Mim</h2>
-        <img src="minhafoto.jpg.jpg" alt="Foto de Gabriel Nobre" width="150">
-        <p>Olá! me chamo gabriel nobre , sou desenvolvedor web apaixonado por tecnologia. Estou em constante aprendizado e meu objetivo é trabalhar com desenvolvimento e construir uma carreira sólida na área de TI.</p>
-        <button onclick="mostrarMensagem1()">Instagran</button>
-        <p id="mensagem" class="mensagem"></p>
-        <button onclick="mostrarMensagem2()">Tiktok</button>
-        <p id="mensagem1" class="mensagem"></p>
+        <img src="foto.jpg.jpg" alt="Gabriel Nobre" />
+        
+        <p>Olá! Me chamo Gabriel Nobre, sou desenvolvedor web apaixonado por tecnologia. Estou em constante aprendizado e meu objetivo é trabalhar com desenvolvimento e construir uma carreira sólida na área de TI.</p>
+
+        <div class="redes-sociais">
+          <a href="https://www.instagram.com/gabrielnobre" target="_blank" class="btn-social">
+            <i class="fab fa-instagram"></i> Instagram
+            <a href="sobre.html"> Sobre nos</a>
+          </a>
+          <a href="https://www.tiktok.com/@gabrielnobre" target="_blank" class="btn-social">
+            <i class="fab fa-tiktok"></i> TikTok
+          </a>
+        </div>
       </div>
     </section>
 
     <section class="contato">
       <div class="container">
         <h2>Entre em Contato</h2>
-       
-        
-        </a>
+        <!-- Adicione formulário aqui futuramente -->
       </div>
     </section>
   </main>
@@ -50,7 +67,5 @@
       <p>&copy; 2025 Gabriel Nobre. Todos os direitos reservados.</p>
     </div>
   </footer>
-
-  <script src="script.js"></script>
 </body>
-</html
+</html>
